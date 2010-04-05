@@ -1,0 +1,14 @@
+Source: amrenc
+Build-Depends: debhelper
+Section: sound
+Priority: optional
+Standards-Version: 3.7.3
+Maintainer: Matteo Croce <rootkit85@yahoo.it>
+
+Package: amrenc
+Architecture: any
+Section: sound
+Priority: optional
+Depends: ${shlibs:Depends}
+Description: AMR-NB (Narrow Band) Encoder
+ This is basically the 3gpp encoder, just packaged for easier usage
